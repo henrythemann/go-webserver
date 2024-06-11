@@ -35,7 +35,7 @@
             system = system;
             modules = [
               flakery.nixosModules.flakery
-              appModule
+              ./flakery.nix
             ];
           };
 
